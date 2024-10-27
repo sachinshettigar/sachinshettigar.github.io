@@ -4,17 +4,17 @@ const start = 1992;
 const end=2992;
 const years = []
 
-for(index = start; index<= end; index++) {
+for(year = start; year<= end; year++) {
   let className = "";
-  if(index < 2024){
-    className == "lived"
+  if(year < 2024){
+    className = "lived"
   }
-  else if(index === 2024) {
+  else if(year === 2024) {
     className = "living"
   }
   else 
     className = "yetToLive"
-  const el = `<li class={className}></li>`
+  const el = `<li title={year} class={className}></li>`
    years.push(el);
 }
 
