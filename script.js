@@ -1,3 +1,5 @@
+document.onload = function(){
+  
 const ul = document.getElementById("timeLeft")
 
 const start = 1992;
@@ -19,3 +21,4 @@ for(year = start; year<= end; year++) {
 }
 
 ul.innerhtml = years.join("");
+}
