@@ -21,4 +21,4 @@ settimeout(() => {
   }
   
   ul.innerHTML = years.join("");
-}
+}, 1000);
