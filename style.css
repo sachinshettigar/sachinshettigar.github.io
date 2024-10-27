@@ -1,1 +1,15 @@
+#timeLeft {
+  max-width:400px
+}
 
+.lived {
+  backgroundColor: red;
+}
+
+.living{
+  backgoundColor: yellow;
+}
+
+.yetToLive {
+  backgroundColor: green;
+}
