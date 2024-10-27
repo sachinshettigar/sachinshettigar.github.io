@@ -1,6 +1,7 @@
 #timeLeft {
   max-width:400px;
   display:flex;
+  flex-wrap:wrap;
 }
 
 #timeLeft > li { 
@@ -8,6 +9,7 @@
   height:20px;
   border: 1px solid black;
   margin-right:4px;
+  margin-bottom:4px;
   list-style: none;
 }
 
@@ -20,5 +22,5 @@
 }
 
 .yetToLive {
-  backgroundColor: green;
+  backgroundColor: white;
 }
