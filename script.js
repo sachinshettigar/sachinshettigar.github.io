@@ -5,7 +5,7 @@ const end=2992;
 const years = []
 
 for(index = start; index<= end; index++) {
-  const className = "";
+  let className = "";
   if(index < 2024){
     className == "lived"
   }
