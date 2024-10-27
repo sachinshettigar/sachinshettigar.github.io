@@ -3,7 +3,7 @@ setTimeout(() => {
   const ul = document.getElementById("timeLeft")
   
   const start = 1992;
-  const end=2992;
+  const end=2092;
   const years = []
   
   for(year = start; year<= end; year++) {
