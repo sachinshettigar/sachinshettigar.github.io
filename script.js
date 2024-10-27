@@ -7,9 +7,11 @@ const years = []
 for(index = start; index<= end; index++) {
   const className = "";
   if(index < 2024){
-    clsasName == "lived"
+    className == "lived"
+  }
   else if(index === 2024) {
     className = "living"
+  }
   else 
     className = "yetToLive"
   const el = `<li class={className}></li>`
