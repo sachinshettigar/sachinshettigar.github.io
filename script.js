@@ -1,4 +1,4 @@
-settimeout(() => {
+setTimeout(() => {
    
   const ul = document.getElementById("timeLeft")
   
@@ -21,4 +21,4 @@ settimeout(() => {
   }
   
   ul.innerHTML = years.join("");
-}, 1000);
+}, 1000)
