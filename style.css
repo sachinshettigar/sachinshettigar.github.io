@@ -1,12 +1,14 @@
 #timeLeft {
-  max-width:400px
+  max-width:400px;
+  display:flex;
 }
 
 #timeLeft > li { 
   width: 10px;
   height:10px;
   border: 1px solid black;
-
+  margin-right:4px;
+  list-style: none;
 }
 
 .lived {
