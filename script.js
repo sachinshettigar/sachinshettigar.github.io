@@ -16,7 +16,7 @@ setTimeout(() => {
     }
     else 
       className = "yetToLive"
-    const el = `<li title=${year} class=${className}>${year-start+1}</li>`
+    const el = `<li title=${year} class=${className}>${year-start}</li>`
      years.push(el);
   }
   
